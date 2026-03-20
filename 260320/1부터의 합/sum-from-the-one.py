@@ -4,7 +4,7 @@ idx = 0
 
 for i in range(1, 101):
     cnt += i
-    if cnt > N:
+    if cnt >= N:
         idx = i
         break
 
